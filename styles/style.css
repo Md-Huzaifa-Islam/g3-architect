@@ -46,6 +46,14 @@ section,footer{
     margin: auto;
 }
 
+.span1{
+    color: rgb(255, 144, 14);
+}
+
+.span2{
+    color: rgb(114, 114, 114);
+}
+
 
 
 
@@ -119,6 +127,92 @@ nav a{
 
 
 
+/*    feature section   */
+
+.feature{
+    margin: 85px auto 0px;
+    display:flex;
+    gap: 75px;
+    justify-content: center;
+    align-items: center;
+}
+
+.featurepic{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    max-width: 700px;
+    gap: 24px;
+}
+
+.feature img{
+    width: 100%;
+}
+
+.featuretext{
+    max-width: 530px;
+}
+
+.feature p{
+    margin: 24px 0px 32px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+/*   fact section   */
+
+.fact{
+    margin: 130px 0px 0px;
+}
+
+.fact>p{
+    margin: 24px 0px 100px;
+}
+
+.container{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.card{
+    width: 240px;
+    height: 240px;
+    border: 1px solid rgb(255, 144, 14);
+    border-radius: 8px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.card img{
+    width: 45px;
+    height: 45px;
+}
+
+.card h1{
+    margin: 10px 0px 5px;
+}
+
+.card p{
+    color: rgb(114, 114, 114);
+    font-family: Work Sans;
+    font-size: 20px;
+    font-weight: 600;
+}
+
+
+
+
 
 
 
@@ -147,6 +241,13 @@ nav a{
     }
     nav ul{
         width: calc( 100vw - 40px );
+    }
+    .feature{
+        flex-direction: column;
+        gap: 60px;
+    }
+    .featuretext{
+        text-align: center;
     }
 }
 
