@@ -7,9 +7,7 @@
     text-decoration: none;
 }
 
-html{
-    font-size: 16px;
-}
+
 
 
 
@@ -24,9 +22,9 @@ html{
 
 p{
     color: rgb(114, 114, 114);
-    font-size: 16px;
+    font-size: 1rem;
     font-weight: 400;
-    line-height: 26px;
+    line-height: 1.625rem;
 }
 
 .btn{
@@ -37,6 +35,15 @@ p{
     font-weight: 600;
     padding: 1.25rem 1.5625rem;
     border: none;
+}
+
+main{
+    padding: 0px 20px;
+}
+
+section,footer{
+    max-width: 1400px;
+    margin: auto;
 }
 
 
@@ -82,7 +89,7 @@ nav a{
 .headertext{
     max-width: 900px;
     text-align: center;
-    margin: 6.375rem auto 3.125rem;
+    margin: 100px auto 50px;
 }
 
 .headertext h1{
@@ -105,6 +112,42 @@ nav a{
 
 .banner img{
     width: 100%;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media screen and (max-width:576px) {
+    html{
+        font-size: 14px;
+    }
+    nav{
+        flex-direction: column;
+    }
+    nav h2{
+        margin-bottom: 40px;
+    }
+    .headertext{
+        margin: 80px auto 50px;
+    }
+    nav ul{
+        width: calc( 100vw - 40px );
+    }
 }
 
 
