@@ -159,6 +159,8 @@ nav a{
 
 
 
+/*   love section   */
+
 
 
 
@@ -206,16 +208,60 @@ nav a{
 .card p{
     color: rgb(114, 114, 114);
     font-family: Work Sans;
-    font-size: 20px;
+    font-size: 1.25rem;
     font-weight: 600;
 }
 
 
 
 
+/*  sponsor section    */
+
+.sponsor{
+    margin-top: 180px;
+    text-align: center;
+}
+
+
+.sponsor img{
+    width: 100%;
+    filter: grayscale(100%);
+}
+
+.spntext{
+    max-width: 540px;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    row-gap: 24px;
+    margin-bottom: 50px;
+}
+
+.spncontainer{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.spncontainer div{
+    width: 8.65vw;
+}
 
 
 
+
+
+/*   footer   */
+
+footer{
+    margin-top: 130px;
+    padding: 40px 0px;
+    display: flex;
+    justify-content: center;
+    border-radius: 8px;
+    background: rgb(255, 244, 231);
+}
 
 
 
@@ -248,6 +294,24 @@ nav a{
     }
     .featuretext{
         text-align: center;
+    }
+    .fact {
+        margin-top: 85px;
+        text-align: center;
+    }
+    .fact>p{
+        margin-bottom: 60px;
+    }
+    .container{
+        flex-direction: column;
+        row-gap: 40px;
+    }
+    .sponsor{
+        margin-top: 120px;
+    }
+
+    footer{
+        margin-top: 85px;
     }
 }
 
